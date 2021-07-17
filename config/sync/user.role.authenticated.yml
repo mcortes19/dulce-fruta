@@ -1,0 +1,13 @@
+uuid: bcd5d550-f114-4134-89a9-3071d09a5777
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nX_HojtQCdDw7RcyUVttvYc0fQBNlyrnzvc8J8hC4i0
+id: authenticated
+label: 'Usuario autenticado'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'view media'

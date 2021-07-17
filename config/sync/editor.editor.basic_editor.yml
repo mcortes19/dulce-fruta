@@ -1,0 +1,54 @@
+uuid: 13784a40-547c-472a-b5c9-497a5eeebbd9
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.basic_editor
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 6bSUgoW1dRGBwel0RG_EcTClABqYAu9HtLlhRBpBGTE
+format: basic_editor
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Underline
+            - Italic
+            - Strike
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

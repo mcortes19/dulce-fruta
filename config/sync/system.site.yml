@@ -1,0 +1,15 @@
+name: 'Dulce Fruta'
+mail: admin@admin.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+mail_notification: ''
+_core:
+  default_config_hash: kFLSOjaWFfawAxFTZclDYQwVzpfwoxLsHWeeKzzAUVo
+uuid: 8b69f055-056b-4e75-ab77-fe7c3ef8ac91
