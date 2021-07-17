@@ -1,0 +1,16 @@
+uuid: 6b11e6fe-5346-4b28-bb34-62c6dcd1077f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.recipe
+target_entity_type_id: node
+target_bundle: recipe
+default_langcode: site_default
+language_alterable: true

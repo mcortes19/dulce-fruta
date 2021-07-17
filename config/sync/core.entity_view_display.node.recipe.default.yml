@@ -1,0 +1,29 @@
+uuid: 9117369e-3cf3-4b53-85e3-d375bc5ea13c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - node.type.recipe
+  module:
+    - text
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

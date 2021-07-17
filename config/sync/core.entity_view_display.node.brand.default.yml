@@ -1,0 +1,29 @@
+uuid: c7931d5d-aadf-4cfa-86a0-fe77d70cd4c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.brand.body
+    - node.type.brand
+  module:
+    - text
+    - user
+id: node.brand.default
+targetEntityType: node
+bundle: brand
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

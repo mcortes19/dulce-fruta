@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: gY2PKwB2xFIeCVc_HkBkKwFCxbCL5xYoq_wKSMcMFTs
 id: content_editor
-label: 'Content editor'
+label: Editor
 weight: -8
 is_admin: null
 permissions:

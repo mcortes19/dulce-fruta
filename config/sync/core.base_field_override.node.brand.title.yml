@@ -1,0 +1,18 @@
+uuid: a5bab638-5648-4fba-b4bb-8f857e659a3b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.brand
+id: node.brand.title
+field_name: title
+entity_type: node
+bundle: brand
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

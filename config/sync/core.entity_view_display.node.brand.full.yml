@@ -1,0 +1,35 @@
+uuid: 5ec8719a-a61c-4bcf-9691-4440b49d32c7
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.brand.body
+    - node.type.brand
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.brand.full
+targetEntityType: node
+bundle: brand
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

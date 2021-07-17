@@ -1,0 +1,21 @@
+uuid: 822d3396-b579-44e3-afc5-7c5dbb871d64
+langcode: es
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+folder: sites/default/config/dev
+module:
+  devel: 0
+  stage_file_proxy: 0
+  views_ui: 0
+theme: {  }
+blacklist: {  }
+graylist:
+  - core.extension
+  - smtp.settings
+  - system.mail
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

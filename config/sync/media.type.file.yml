@@ -5,11 +5,12 @@ dependencies: {  }
 _core:
   default_config_hash: NOZvPr-FluGhh80Cz2QAyZLZFAPQPAU8CgiSJvL6ekI
 id: file
-label: Archivo
-description: 'This media entity allows you to add a File.'
+label: Documento
+description: 'Permite agregar contenido de tipo Documento.'
 source: file
 queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
   source_field: field_media_file
-field_map: {  }
+field_map:
+  name: name

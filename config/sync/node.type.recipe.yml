@@ -1,0 +1,17 @@
+uuid: 40779539-587e-46c9-8121-b52af2b0dde4
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Receta
+type: recipe
+description: 'Permite crear contenido de tipo Receta.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false
