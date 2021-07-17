@@ -1,14 +1,14 @@
-uuid: b895c5fd-6564-45e8-99e2-b2951f97ed2f
+uuid: 8306e98f-0175-40b4-ac6b-5cf23d865812
 langcode: es
 status: true
 dependencies:
   config:
     - node.type.recipe
-id: node.recipe.promote
-field_name: promote
+id: node.recipe.sticky
+field_name: sticky
 entity_type: node
 bundle: recipe
-label: 'Promocionado a la página principal'
+label: 'Fijo al comienzo de las listas'
 description: ''
 required: false
 translatable: false

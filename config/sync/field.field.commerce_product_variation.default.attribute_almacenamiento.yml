@@ -1,0 +1,24 @@
+uuid: 28b44ae4-fa26-4f25-badc-d8b87d849203
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.almacenamiento
+    - commerce_product.commerce_product_variation_type.default
+    - field.storage.commerce_product_variation.attribute_almacenamiento
+id: commerce_product_variation.default.attribute_almacenamiento
+field_name: attribute_almacenamiento
+entity_type: commerce_product_variation
+bundle: default
+label: Almacenamiento
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - almacenamiento
+field_type: entity_reference

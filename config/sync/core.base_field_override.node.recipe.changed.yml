@@ -1,0 +1,18 @@
+uuid: 4f4c1235-9963-4b1c-8331-41f9ec891b9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+id: node.recipe.changed
+field_name: changed
+entity_type: node
+bundle: recipe
+label: Modificado
+description: 'La fecha en que el nodo fue editado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

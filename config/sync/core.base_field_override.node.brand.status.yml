@@ -1,20 +1,20 @@
-uuid: b895c5fd-6564-45e8-99e2-b2951f97ed2f
+uuid: 18f206ed-6f21-4fd3-81c1-354e5b052e87
 langcode: es
 status: true
 dependencies:
   config:
-    - node.type.recipe
-id: node.recipe.promote
-field_name: promote
+    - node.type.brand
+id: node.brand.status
+field_name: status
 entity_type: node
-bundle: recipe
-label: 'Promocionado a la página principal'
+bundle: brand
+label: Published
 description: ''
 required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: Activado

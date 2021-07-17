@@ -1,18 +1,18 @@
-uuid: 8b6df626-3927-482b-8dfc-a2e336a0a92f
+uuid: 795a8032-7c07-482f-865c-47c60566efab
 langcode: es
 status: true
 dependencies:
   config:
     - node.type.recipe
-id: node.recipe.title
-field_name: title
+id: node.recipe.created
+field_name: created
 entity_type: node
 bundle: recipe
-label: Nombre
-description: ''
-required: true
+label: Fecha
+description: 'La fecha en que el nodo fue creado.'
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: created

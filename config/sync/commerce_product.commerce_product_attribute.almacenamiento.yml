@@ -1,0 +1,7 @@
+uuid: 901ce890-b40d-4e61-ab04-15c8f2520a33
+langcode: es
+status: true
+dependencies: {  }
+id: almacenamiento
+label: Almacenamiento
+elementType: select
