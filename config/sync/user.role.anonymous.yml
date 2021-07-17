@@ -10,4 +10,5 @@ weight: -10
 is_admin: false
 permissions:
   - 'access content'
+  - 'view commerce_product'
   - 'view media'

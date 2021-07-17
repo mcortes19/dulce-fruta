@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: FEjSJY3rqC417K5vVvLI_BzUiyvvSuyhORgYKFOSmlo
 id: image
-label: Imagen
+label: Image
 description: 'This media entity allows you to add an Image.'
 source: image
 queue_thumbnail_downloads: false

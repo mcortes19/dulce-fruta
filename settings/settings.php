@@ -82,14 +82,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.secret.php')) {
   include $app_root . '/' . $site_path . '/settings.secret.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'drupal',
-  'username' => 'drupal',
-  'password' => 'drupal',
-  'prefix' => '',
-  'host' => 'db',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['hash_salt'] = 'lFb6lQ-DdRblNYSfhPN0gGrbM6xtNOra7v29XQcnauw2UZ1gdGEnvUWq1jJ6V7yZ0h2q8KCXcw';
